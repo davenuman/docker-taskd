@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+docker run -d -v `pwd`/data:/data -p 53589:53589 --name=taskd daven/taskd
