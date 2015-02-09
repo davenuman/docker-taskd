@@ -6,7 +6,7 @@ RUN pacman --noconfirm -S base-devel
 RUN pacman --noconfirm -S git cmake
 
 # Clone taskd git repo
-RUN git clone -b 1.0.1 https://git.tasktools.org/scm/tm/taskd.git taskd-build
+RUN git clone -b 1.1.0 https://git.tasktools.org/scm/tm/taskd.git taskd-build
 WORKDIR /taskd-build
 
 # compile taskd
